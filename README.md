@@ -14,7 +14,7 @@
 
 - Docker 
 
-- Aztec Tool
+- Aztec CLI
 
 - Sepolia RPC URL
 
