@@ -12,9 +12,7 @@
 
 # Pre-Requirements 🛠
 
-- Docker & Docker Compose
-
-   🔺(Let run your docker in background if u are using local Device)
+- Docker 
 
 - Aztec Tool
 
@@ -82,7 +80,7 @@ bash -i <(curl -s https://install.aztec.network)
 ```
 
 
-* Lets Config it to your corrent Shell/Path
+* Let’s configure it to your current Shell/Path
 
 ```
 echo 'export PATH="$HOME/.aztec/bin:$PATH"' >> ~/.bashrc
@@ -119,12 +117,9 @@ https://www.alchemy.com/faucets/ethereum-sepolia
 ```
 sudo ufw allow 22
 sudo ufw allow ssh
-sudo ufw enable
-```
-
-```
 sudo ufw allow 40400
 sudo ufw allow 8080
+sudo ufw enable
 ```
 
 
@@ -178,7 +173,7 @@ aztec start --node --archiver --sequencer \
 
 * It will take time to Sync! 🥶
 
-* The Successfull Running Should Look like this 👇
+* Your successfully running node should look like this  👇
 
 
 ![Screenshot 2025-05-02 172143](https://github.com/user-attachments/assets/37ae2455-8b98-4642-bf14-0f5e1ed90cf2)
