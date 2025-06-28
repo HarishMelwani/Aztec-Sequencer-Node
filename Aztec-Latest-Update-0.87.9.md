@@ -21,6 +21,16 @@ aztec-up latest
 
  🪜 Step-4) Start your node with `Start` command: 
 
+```
+aztec start --node --archiver --sequencer \
+  --network alpha-testnet \
+  --l1-rpc-urls Eth_Sepolia_RPC \
+  --l1-consensus-host-urls Eth-beacon_sepolia_RPC \
+  --sequencer.validatorPrivateKey 0xYourPrivateKey \
+  --sequencer.coinbase YourAddress \
+  --p2p.p2pIp Your_ip
+```
+
 
 * 📣Note-: If your logs are like this: Then you are good to go: Your sequencers working fine: 
 
