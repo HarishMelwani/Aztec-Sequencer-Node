@@ -4,7 +4,7 @@
 
 </div>
 
- 🪜Step-1) Open Aztec Screen 
+ 🪜Step-1) Open Aztec Screen - 
 
 ```
 screen -r aztec
