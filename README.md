@@ -100,16 +100,8 @@ aztec -h
 * Set the correct version for the testnet
 
 ```
-aztec-up latest
+aztec-up 0.87.9
 ```
-
-
-# Load your wallet with Sepolia Faucet 
-
-https://sepolia-faucet.pk910.de/
-
-https://www.alchemy.com/faucets/ethereum-sepolia
-
 
 
 # Allow Incoming connections on Ports 
@@ -122,14 +114,11 @@ sudo ufw allow 8080
 sudo ufw enable
 ```
 
+# Load your wallet with Sepolia Faucet 
 
-* Sites To Get Sepolia & Beacon RPC for free ( Rate Limit ) !
+https://sepolia-faucet.pk910.de/
 
-https://drpc.org/dashboard
-
-https://developer.metamask.io/key/active-endpoints
-
-https://www.alchemy.com
+https://www.alchemy.com/faucets/ethereum-sepolia
 
 
 <div  align="center">
