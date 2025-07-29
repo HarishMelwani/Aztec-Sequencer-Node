@@ -187,35 +187,6 @@ screen -r aztec
 * Go to `#operators│start-here` Channel & react to the message to get your Apprentice Role.
 
    
-# Register as a Validator 🔗⛓️
-
-</div>
-
-* Replace `Eth_Sepolia_Rpc` with your actual sepolia rpc url from Metamask developer.
-
-* Replace `your-private-key` with your evm wallet pvt key! Dont forget  to add `0x` at starting
-
-* Replace `your-validator-address` with your evm wallet address 
-
-* Replace `your-validator-address` with your evm wallet address
-
-
-```
-aztec add-l1-validator \
-  --l1-rpc-urls Eth_Sepolia_Rpc \
-  --private-key your-private-key \
-  --attester your-validator-address \
-  --proposer-eoa your-validator-address \
-  --staking-asset-handler 0xF739D03e98e23A7B65940848aBA8921fF3bAc4b2 \
-  --l1-chain-id 11155111
-```
-
-
-
-* Note- ![image](https://github.com/user-attachments/assets/50e7e432-c2a1-4356-afe8-9d47a48f8e68)
-
-
-
 
 👉 Follow me on X ( Twitter ) - https://x.com/harishmelwanii
 
