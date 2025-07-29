@@ -100,7 +100,7 @@ aztec -h
 * Set the correct version for the testnet
 
 ```
-aztec-up 0.87.9
+aztec-up 1.1.2
 ```
 
 
@@ -140,7 +140,7 @@ aztec start --node --archiver --sequencer \
   --network alpha-testnet \
   --l1-rpc-urls Eth_Sepolia_RPC \
   --l1-consensus-host-urls Eth-beacon_sepolia_RPC \
-  --sequencer.validatorPrivateKey 0xYourPrivateKey \
+  --sequencer.validatorPrivateKeys 0xYourPrivateKey \
   --sequencer.coinbase YourAddress \
   --p2p.p2pIp Your_ip
 ```
