@@ -100,7 +100,7 @@ aztec -h
 * Set the correct version for the testnet
 
 ```
-aztec-up 1.2.1 && sed -i 's/latest/1.2.1/' "$HOME/.aztec/bin/.aztec-run" && aztec -V
+aztec-up 2.0.2 && sed -i 's/latest/2.0.2/' "$HOME/.aztec/bin/.aztec-run" && aztec -V
 ```
 
 
@@ -137,7 +137,7 @@ screen -S aztec
 
 ```
 aztec start --node --archiver --sequencer \
-  --network alpha-testnet \
+  --network testnet \
   --l1-rpc-urls Eth_Sepolia_RPC \
   --l1-consensus-host-urls Eth-beacon_sepolia_RPC \
   --sequencer.validatorPrivateKeys 0xYourPrivateKey \
@@ -151,7 +151,7 @@ aztec start --node --archiver --sequencer \
 * Replace `Eth-beacon_sepolia_RPC` with your actual one            -follow above steps
 
 
-* Replace `0xYourPrivateKey` with your actual EVM wallet pvt key    🔺 (dont forget to add 0x at starting)
+* Replace `0xYourPrivateKeys` with your actual EVM wallet pvt key    🔺 (dont forget to add 0x at starting)
 
 * Replace `YourAddress` with your actual evm wallet address
 
