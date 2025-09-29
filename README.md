@@ -192,6 +192,6 @@ screen -r aztec
 
 If U have any issue please Dm me on X ~
 
-Thank Yo! 👨🏻‍💻
+Thank Youuuuu! 👨🏻‍💻
 
 Happy Coding💗
