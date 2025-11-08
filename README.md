@@ -100,7 +100,7 @@ aztec -h
 * Set the correct version for the testnet
 
 ```
-aztec-up 2.0.2 && sed -i 's/latest/2.0.2/' "$HOME/.aztec/bin/.aztec-run" && aztec -V
+aztec-up 2.1.2 && sed -i 's/latest/2.1.2/' "$HOME/.aztec/bin/.aztec-run" && aztec -V
 ```
 
 
